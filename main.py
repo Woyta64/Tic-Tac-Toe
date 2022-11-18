@@ -140,6 +140,9 @@ while True:
         if win_1 == 1:
             score_x += 1
             break
+        else:
+            print("Remíza")
+            break
 
     is_continue = input("Chcete chrát znovu? (ano/ne) : ")
     if is_continue != "ano":
